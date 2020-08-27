@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifSearchApp Test Test 1 - Enzyme: GifSearchApp should be render correctly  1`] = `
+<Fragment>
+  <h1>
+    GifSearchApp
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ul />
+</Fragment>
+`;
+
+exports[`GifSearchApp Test Test 2 - Enzyme: GifSearchApp shoukd be render categories list 1`] = `
+<Fragment>
+  <h1>
+    GifSearchApp
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ul>
+    <GifGrid
+      category="Friends"
+      key="Friends"
+    />
+    <GifGrid
+      category="Umbrella Academy"
+      key="Umbrella Academy"
+    />
+  </ul>
+</Fragment>
+`;

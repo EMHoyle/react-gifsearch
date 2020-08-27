@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGrid Test Test 1 - Enzyme: GifGrid should be render correctly 1`] = `
+<div
+  className="card animate__animated animate__zoomInDown"
+>
+  <img
+    alt="A Title"
+    src="https://...."
+  />
+  <p>
+    A Title
+  </p>
+</div>
+`;
+
+exports[`GifGrid Test Test 2 - Enzyme: PropTypes 1`] = `
+<div
+  className="card animate__animated animate__zoomInDown"
+>
+  <img
+    alt="A Title"
+    src="https://...."
+  />
+  <p>
+    A Title
+  </p>
+</div>
+`;
